@@ -1,7 +1,7 @@
 let container = document.querySelector('.album');
 
 let search = new URLSearchParams(window.location.search);
-let id = search.get('id')
+let id = search.get('id');
 
 let album = albums[id - 1];
 
